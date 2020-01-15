@@ -1,0 +1,157 @@
+/*5545*/
+.container {
+	max-width: 970px;
+}
+.container:before, 
+.container:after {
+    content: "";
+    display: table;
+}
+
+@media screen and (min-width: 768px) {
+	.container {
+		width: 750px;
+	}
+}
+@media screen and (min-width: 992px) {
+	.container {
+		width: 970px;
+	}
+}
+@media screen and (min-width: 1200px) {
+	.container {
+		width: 1170px;
+	}
+}
+.view-image-full-width-bottom, 
+.view-image-full-width-two-bottom, 
+.view-image-full-width-left, 
+.view-image-full-width-right, 
+.reasons-to-signup {
+    border-bottom: 1px solid #ddd;
+}
+.view-image-full-width-left, .view-image-full-width-right {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.big-img-row {
+	padding-top: 20px;
+    padding-bottom: 0;
+}
+.big-img-row h3 {
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+.big-img-row p {
+    font-size: 15px;
+}
+.big-img-row.fix-width .group-image-left, 
+.big-img-row.fix-width .group-image-right {
+    padding-right: 0;
+    padding-left: 0;
+}
+.big-img-row img {
+    margin: 0 auto;
+}
+.big-img-row.fix-width img {
+    margin: 0;
+}
+@media screen and (min-width: 768px) {
+	.big-img-row {
+		padding-top: 80px;
+	}
+	.big-img-row.extra-pad {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.big-img-row.fix-width .group-image-left, 
+	.big-img-row.fix-width .group-image-right {
+		margin-right: -15px;
+		margin-left: -15px;
+	}
+}
+@media screen and (min-width: 780px) {
+	.big-img-row.fix-width .group-image-left, 
+	.big-img-row.fix-width .group-image-right {
+		margin-right: -25px;
+		margin-left: -25px;
+	}
+}
+@media screen and (min-width: 800px) {
+	.big-img-row.fix-width .group-image-left, 
+	.big-img-row.fix-width .group-image-right {
+		margin-right: -37.667px;
+		margin-left: -37.667px;
+	}
+}
+@media screen and (min-width: 825px) {
+	.big-img-row.fix-width .group-image-left, 
+	.big-img-row.fix-width .group-image-right {
+		margin-right: -50px;
+		margin-left: -50px;
+	}
+}
+@media screen and (min-width: 850px) {
+	.big-img-row.fix-width .group-image-left, 
+	.big-img-row.fix-width .group-image-right {
+		margin-right: -62.667px;
+		margin-left: -62.667px;
+	}
+}
+@media screen and (min-width: 875px) {
+	.big-img-row.fix-width .group-image-left, 
+	.big-img-row.fix-width .group-image-right {
+		margin-right: -75px;
+		margin-left: -75px;
+	}
+}
+@media screen and (min-width: 900px) {
+	.big-img-row.fix-width .group-image-left, 
+	.big-img-row.fix-width .group-image-right {
+		margin-right: -75px;
+		margin-left: -75px;
+	}
+}
+@media screen and (min-width: 925px) {
+	.big-img-row.fix-width .group-image-left, 
+	.big-img-row.fix-width .group-image-right {
+		margin-right: -87.667px;
+		margin-left: -87.667px;
+	}
+}
+@media screen and (min-width: 950px) {
+	.big-img-row.fix-width .group-image-left, 
+	.big-img-row.fix-width .group-image-right {
+		margin-right: -100px;
+		margin-left: -100px;
+	}
+}
+@media screen and (min-width: 975px) {
+	.big-img-row.fix-width .group-image-left, 
+	.big-img-row.fix-width .group-image-right {
+		margin-right: -125px;
+		margin-left: -125px;
+	}
+}
+@media screen and (min-width: 992px) {
+	.consistent-service {
+		background: #fff url(/public/img/energy-plan-signup-desktop.png) no-repeat bottom center;
+		background-size: auto 100%;
+	}
+	.consistent-service .group-content-left {
+		height: 420px;
+	}
+	.consistent-service img {
+		display: none;
+	}
+}
+@media screen and (max-width: 480px) {
+	.big-img-row {
+		padding-top: 0;
+	}
+}
+@media screen and (max-width: 992px) {
+	.big-img-row {
+		text-align: center;
+	}
+}

@@ -1,0 +1,104 @@
+p {
+    color: #4A4E69;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+.row-white {
+	padding: 65px 10px;
+}
+.row-grey {
+    background-color: lightgrey;
+    -webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+    padding: 65px 10px;
+}
+.work-item-row {
+    /* padding: 10% 0; */
+}
+h1, 
+h2, 
+h3, 
+h4, 
+h5 {
+    color: #4A4E69 !important;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+.hero {
+	position: relative;
+	overflow: hidden;
+	height: 416px;
+	margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.hero-programmer {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url(../img/coding-on-laptop.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url(../img/coding-on-laptop.jpg);
+}
+.container-fluid .hero .text-center {
+	margin-top: 95px;
+}
+.container-fluid .hero .text-center h1,
+.container-fluid .hero .text-center h3 {
+	color: #fff !important;
+	font-weight: 400;
+}
+.btn-launch {
+	width: 100%;
+    max-width: 200px;
+    background-color: #51a351;
+    color: white;
+    box-shadow: 0px 2px 5px 1px darkgrey;
+}
+@media screen and (min-width: 767px){
+	.container-fluid .hero .text-center {
+		margin-top: 185px;
+	}
+	.hero {
+		height: 545px;
+	}
+}
+/*scaffolding.less*/
+/*86*/
+.carousel-inner>.item>a>img, 
+.carousel-inner>.item>img, 
+.img-responsive, 
+.thumbnail a>img, 
+.thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+/*end of scaffolding.less*/
+/*utilities.less*/
+/*18*/
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*end of utilities.less*/
+/*type.less*/
+.h4, h4 {
+    font-size: 18px;
+}
+.h2, 
+h2 {
+    font-size: 30px;
+}
+p {
+    margin: 0 0 10px;
+}
+/*end of type.less*/
+/*normalize.less*/
+a {
+    background-color: transparent;
+}
+/*end of normalize.less*/
