@@ -1,7 +1,7 @@
 ## Porfolio Website
 
 ### Screenshot:
-  ![Screenshot](public/img/homepage.png)
+  ![Screenshot](/img/homepage.png)
   
 #### [Link to Live Site](http://allanarthurs.com/)  
 #### [Link to Repo](https://github.com/Arathurs/Portfolio-Website.git)  
