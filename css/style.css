@@ -12,9 +12,6 @@ p {
     clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
     padding: 65px 10px;
 }
-.work-item-row {
-    /* padding: 10% 0; */
-}
 h1, 
 h2, 
 h3, 
@@ -65,8 +62,6 @@ h5 {
 		height: 545px;
 	}
 }
-/*scaffolding.less*/
-/*86*/
 .carousel-inner>.item>a>img, 
 .carousel-inner>.item>img, 
 .img-responsive, 
@@ -76,16 +71,11 @@ h5 {
     max-width: 100%;
     height: auto;
 }
-/*end of scaffolding.less*/
-/*utilities.less*/
-/*18*/
 .center-block {
     display: block;
     margin-right: auto;
     margin-left: auto;
 }
-/*end of utilities.less*/
-/*type.less*/
 .h4, h4 {
     font-size: 18px;
 }
@@ -96,9 +86,6 @@ h2 {
 p {
     margin: 0 0 10px;
 }
-/*end of type.less*/
-/*normalize.less*/
 a {
     background-color: transparent;
 }
-/*end of normalize.less*/
