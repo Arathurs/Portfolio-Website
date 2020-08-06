@@ -16,7 +16,3 @@ A simple static website to showcase my web development portfolio.
 - Bootstrap 4
 - Mobile-First
 - Responsive Design
-- Google Tag Manager
-- Google Analytics
-- A/B Testing
-- Google Adwords
